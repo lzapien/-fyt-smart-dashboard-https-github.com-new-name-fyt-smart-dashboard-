@@ -1,0 +1,712 @@
+{
+  "format_version": 1,
+  "distribution": "source-only",
+  "created_at": "2026-11-07T10:22:50-06:00",
+  "copyright": "Copyright 2026 Luis Zapien",
+  "license": "Apache-2.0 (own contributions; third-party notices retained)",
+  "reference_app": {
+    "applicationId": "com.fytsmart.dashboard",
+    "versionName": "1.1.2",
+    "versionCode": 21
+  },
+  "apk_included": false,
+  "compiled_this_delivery": false,
+  "wrapper_jar": "Gradle Wrapper only; support tool for future authorized builds",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 635,
+      "sha256": "20850c8cde3f07348b569d327ef12fbaef18eb120cd97f5f2631369e17a9b53a"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 5302,
+      "sha256": "349f029a9666aaffc9e2c27ddf9f0d55291f1b18acd2962b8bcb1652e7a98832"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2097,
+      "sha256": "14b369a2b5ca38660b5c3d7f25ee3966b380a6bed6931f8c815e68a03cc81e3b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "LICENSE_PROPOSAL.md",
+      "bytes": 1209,
+      "sha256": "8a2e125a86bdfb5858e9b8f70684bed8a53b546afd30825d041aa815f3220981"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 953,
+      "sha256": "957d2159f3b1919d69c35274c9beb0dce67e164d9e01d527cf84ed65727e466d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7339,
+      "sha256": "c0903c8e0fb5db860ebd762fc124382a2037b080628ee917bd875594a3f662e1"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4227,
+      "sha256": "b13b510910c79f4eb21f809e609e893ee52d2eb13a37933a4f40be2f681d56fc"
+    },
+    {
+      "path": "app/build.gradle",
+      "bytes": 461,
+      "sha256": "bd680080afe5ce9c2505698a85a309dc9d17eb5f86524328e3d46bac6b38dfb0"
+    },
+    {
+      "path": "app/src/androidTest/AndroidManifest.xml",
+      "bytes": 260,
+      "sha256": "b6a6a14e048e373a95f8953daaf940da9ddd0909b5041d16b65aad5d81b6bb07"
+    },
+    {
+      "path": "app/src/androidTest/java/com/fytsmart/dashboard/AppDrawerChecks.java",
+      "bytes": 12344,
+      "sha256": "760f47459884e8cf84545c69d58aaacfa03372ac236294cac7a9780d8f9b5fb7"
+    },
+    {
+      "path": "app/src/androidTest/java/com/fytsmart/dashboard/AppearanceChecks.java",
+      "bytes": 5436,
+      "sha256": "f7faefc84c5d2b6c9e868af2c30ec5468fade341131705d48f3f1f3bf55e04fc"
+    },
+    {
+      "path": "app/src/androidTest/java/com/fytsmart/dashboard/CockpitInstrumentation.java",
+      "bytes": 21601,
+      "sha256": "f631c82a9d0f9d6f875e4bf18d071f19ab4e0d69726a47b76dcd23322abfe949"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 2899,
+      "sha256": "8d2360758e8114b7cdc2990901c5a99f2f0703aee88583f87e9eef3b5c6dd1d3"
+    },
+    {
+      "path": "app/src/main/assets/legal/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "app/src/main/assets/legal/NOTICE.txt",
+      "bytes": 953,
+      "sha256": "957d2159f3b1919d69c35274c9beb0dce67e164d9e01d527cf84ed65727e466d"
+    },
+    {
+      "path": "app/src/main/assets/legal/THIRD_PARTY_NOTICES.md",
+      "bytes": 4227,
+      "sha256": "b13b510910c79f4eb21f809e609e893ee52d2eb13a37933a4f40be2f681d56fc"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/AppDrawerActivity.java",
+      "bytes": 17909,
+      "sha256": "4853246550b1307be77d74aa1c08bf5b5b05184e09fdde1c0921569428850f26"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/AppDrawerSearch.java",
+      "bytes": 814,
+      "sha256": "872e56a632c31238bb08a47d845eff95d92ad13867759313d774c345e3a00445"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/ArtworkStage.java",
+      "bytes": 846,
+      "sha256": "16917899d5351c258cd5ee2254b3ad8da89fc8ec8b3858c5a1591eaef65e744a"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/CockpitIcon.java",
+      "bytes": 2242,
+      "sha256": "996a506badab4e2a8b2489ac6a1ea3c40a70da9dbbc31a6b3252e0bf704783bc"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/CompassIndicatorView.java",
+      "bytes": 1525,
+      "sha256": "336b1dba867c3ce2d34ea3a3c55dc26cf27e5a8db005a1598a659962f134df09"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DashboardBootReceiver.java",
+      "bytes": 510,
+      "sha256": "4dafe52a978c6984e1da300abe3fa3250dfa3ef95592482bf5932e8847c6c162"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DashboardPalette.java",
+      "bytes": 1620,
+      "sha256": "3a5c74dab2353d5ec17f2b8e788158b87d6ff54a4ab8b53427d68afe788c8d63"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DashboardPreferences.java",
+      "bytes": 1351,
+      "sha256": "af954862b19cad50464413ebcfff615aa668b603391e5695826d2fd8e36a3141"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DashboardRecoveryController.java",
+      "bytes": 9401,
+      "sha256": "a914c71a9afa785f4f1a5ff6ee5c8c8203481c7af3ddb4cbcbaa5f313fd36b06"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DashboardSettingsActivity.java",
+      "bytes": 17728,
+      "sha256": "3a4666f2740a9971654bc0d17cc6fcb8dc3bded559c4cb81983d5527f1998789"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DecorationRenderer.java",
+      "bytes": 8775,
+      "sha256": "b662b09d5f8ff6240eb91cbae406d0959191c7a91e9b8ece460d04ec0e837eb7"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DisplayMode.java",
+      "bytes": 1243,
+      "sha256": "c4c568dd2a9db4f03b7ecc66d48544684a841671bc5f620caa8b8d4a5e05b6a9"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DisplayModeController.java",
+      "bytes": 2653,
+      "sha256": "feffe6ee2b0ba4b6a75e773eee63a5682432b0a6d870e9c81bf5a68b37bdc1df"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DisplayPreferences.java",
+      "bytes": 839,
+      "sha256": "32f0d79cf9bd438e18c605acf0ae732bc2f09c856a7f376def5c35b3b892ef5d"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DisplayUi.java",
+      "bytes": 3457,
+      "sha256": "d9385a92c8dfb1e38e5a050ae8b20505b796c747e20a746fc0861dc1533ec2bc"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/DockIconDrawable.java",
+      "bytes": 4967,
+      "sha256": "127db9d2a7d06bcfad7b545bbb54fdd07a6e233f76582995886c2af4e16ea9fd"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/GenericVehicleArtwork.java",
+      "bytes": 4081,
+      "sha256": "c0397ce5833b479c53b114d9f7897e0b7256447913fbb90e301ae8f1595796ce"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/GpsIndicatorView.java",
+      "bytes": 1368,
+      "sha256": "2ec17aa4fdf8eb270e1411c0fdcd11f0155996f815c2185409457194a3c66e3b"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/GpsLocationService.java",
+      "bytes": 14047,
+      "sha256": "c65272e58c9d7e6fa981c49227290732b2668da46b65bce64efbec2cb9c65d2a"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/GpsSpeedState.java",
+      "bytes": 556,
+      "sha256": "c6fe541488c3702e8f33113b1761e623ac490dea854bb25078d9fa115357e539"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/GpsTelemetry.java",
+      "bytes": 1202,
+      "sha256": "fcdf9d08499a89935b9bad275a6dd354af50e607afa19902eb7f2724904ef01c"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/GpsUpdatePolicy.java",
+      "bytes": 1141,
+      "sha256": "e2be46f86b4a834d3d73c391a69dcee36a5cdf9a8d809c9deb575a75d31c9348"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/LauncherAppCatalog.java",
+      "bytes": 4992,
+      "sha256": "6a2469e64faa1d7aebcd21663c8534e51eb317d933845052ae7893eacb6d04b5"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MainActivity.java",
+      "bytes": 46320,
+      "sha256": "dd8adf9ece13cc7928b71f175a8011d1ec29bcf16f0609ae912a3acf63aa1261"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MediaActions.java",
+      "bytes": 827,
+      "sha256": "075f56a8528f2548acf526fd828f638c255bdc42de644a7fba6eab74c79dee3c"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MediaArtwork.java",
+      "bytes": 6863,
+      "sha256": "3e8bb833277d17dde377ca7acd8afe7504d3cc24d3ab2ff486b6d90e8c745732"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MediaControlDispatcher.java",
+      "bytes": 2100,
+      "sha256": "2540ffd1ee37b93bce1aff231c4b55d91982ec265969d95bdae9aa2c40006a84"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MediaListener.java",
+      "bytes": 342,
+      "sha256": "9fe38a1e2a9945eb3107164a90cd3709b6ab0daca9b7842d5ae61db7badc026a"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MediaSelectionPolicy.java",
+      "bytes": 1345,
+      "sha256": "f12049503976f98b4d51ff3cdc827ba4cec204db97aa10f5ea28991c91d3ccc1"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MediaSessionCoordinator.java",
+      "bytes": 7727,
+      "sha256": "45d7d253fe573675512c03b47dbf814112607b36eef04a4b272e0147717263c1"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/MediaSources.java",
+      "bytes": 880,
+      "sha256": "6fa334cee5fa7baf0403b397b0e51ecd661fd788af4a4d00fd037142c95f8993"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/SourceCycle.java",
+      "bytes": 1105,
+      "sha256": "aea8e63947e22affa81f2ecbfaf82061c31eb654f5f1b701ffbf7a574cf99366"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/SourceManager.java",
+      "bytes": 16666,
+      "sha256": "083e8f2fa18e86bc9a25ee6d96493fdbf4e58c71635b1bba601a439811f21880"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/SpanishDateFormatter.java",
+      "bytes": 518,
+      "sha256": "e5400a400b275c1157040ac2a5e8f38b6da96529e01dcd29f78021c0b91d2cb4"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/SpanishDateView.java",
+      "bytes": 1942,
+      "sha256": "c4146a6dc64e9b3c80226fbf4fe99b3fb8b29f177544521ec8977a97a844c9a0"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/SpeedometerView.java",
+      "bytes": 9475,
+      "sha256": "290d01b67dada3e05b6b6fbea2f7f9169cc75b0e84d19f0dadfd4e8a0197b29c"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/StartupRecoveryPolicy.java",
+      "bytes": 2351,
+      "sha256": "9c2ed94e0d17889dae85739f0b769b2b17d4444dfcd5e6b2e7591cf3e311ada4"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/SuvRearView.java",
+      "bytes": 10240,
+      "sha256": "8455ef1027e030ff7456d62a0642ad6f972797db82b10ba4f716faadc9f38c85"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/ThemeConfig.java",
+      "bytes": 497,
+      "sha256": "01d101b3f76901e1a7c82a574709296d750c705d812a5efec2e6a1f957422d2a"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/ThemeManager.java",
+      "bytes": 2802,
+      "sha256": "ad34fa4e731565ac6415b55d494bb3dd79c0cef5de3c7a1f98af46c17e598ce2"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/VehicleLightingManager.java",
+      "bytes": 4239,
+      "sha256": "ab79d31fb9c9a6f51c80336851e035b87f14255230cd8640b6550769d8697bba"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/VehicleLightingPolicy.java",
+      "bytes": 1834,
+      "sha256": "a5f85e2605ed163b2dca8cb92afbd9aae44676de4e3c8d44539d3ca7a0ae7da7"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/VehiclePlateConfig.java",
+      "bytes": 1302,
+      "sha256": "a607c55e88efa69bd8c93e6dca05d53e86e53daa08d9b43566529e85d8e8dd13"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/WeatherClient.java",
+      "bytes": 3192,
+      "sha256": "ade07ab1b955385e699abdfa5218dc9899db290cc2092641793721a8639732de"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/WeatherPresentation.java",
+      "bytes": 1064,
+      "sha256": "3eb6e33d78429edc9604c1293f814fa3d52fa44d38d5163fc513619f27118a04"
+    },
+    {
+      "path": "app/src/main/java/com/fytsmart/dashboard/WeatherScene.java",
+      "bytes": 3510,
+      "sha256": "c4c37895e74e32e93e9b455e9914748420665fb80d2c48ee46c24f03c7b7bddf"
+    },
+    {
+      "path": "app/src/main/res/drawable/backup_svg/car.xml",
+      "bytes": 826,
+      "sha256": "0c2c292f4b9d8ea09b52af2845da5ae84ee61373aed84ade793247f8a8e9ed9c"
+    },
+    {
+      "path": "app/src/main/res/drawable/backup_svg/car_front.xml",
+      "bytes": 852,
+      "sha256": "4d8f9dac9601004d5a69767a00aedcd4d4147a9de8a93882cb450d874be42e86"
+    },
+    {
+      "path": "app/src/main/res/drawable/backup_svg/circle_letter_p.xml",
+      "bytes": 853,
+      "sha256": "671280c5019da752fd7ad55e8d4ecef887c7a7c33dbe24d4de63c34228a725ce"
+    },
+    {
+      "path": "app/src/main/res/drawable/backup_svg/plane_takeoff.xml",
+      "bytes": 824,
+      "sha256": "5bf05fa0a956ffd01251e96629110d4d4ba3fe1c5546ed554818f784b5909fc1"
+    },
+    {
+      "path": "app/src/main/res/drawable/car.xml",
+      "bytes": 826,
+      "sha256": "0c2c292f4b9d8ea09b52af2845da5ae84ee61373aed84ade793247f8a8e9ed9c"
+    },
+    {
+      "path": "app/src/main/res/drawable/car_front.xml",
+      "bytes": 852,
+      "sha256": "4d8f9dac9601004d5a69767a00aedcd4d4147a9de8a93882cb450d874be42e86"
+    },
+    {
+      "path": "app/src/main/res/drawable/circle_letter_p.xml",
+      "bytes": 853,
+      "sha256": "671280c5019da752fd7ad55e8d4ecef887c7a7c33dbe24d4de63c34228a725ce"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gps_notification.xml",
+      "bytes": 619,
+      "sha256": "2b5d079dcd3a6e40ccc37124e525146d2d08c933c6bd19649550b063e063ab12"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_weather_refresh.xml",
+      "bytes": 522,
+      "sha256": "b8ed365e53837d589860faba32e22df628634b5b6f4d5fe300dbf8dec284c274"
+    },
+    {
+      "path": "app/src/main/res/drawable/plane_takeoff.xml",
+      "bytes": 824,
+      "sha256": "5bf05fa0a956ffd01251e96629110d4d4ba3fe1c5546ed554818f784b5909fc1"
+    },
+    {
+      "path": "app/src/main/res/values/display_ids.xml",
+      "bytes": 116,
+      "sha256": "5cb0cb9b5edc22bd14977d87671db1d7134b91ba24685ca814c2717727f948e0"
+    },
+    {
+      "path": "app/src/main/res/values/display_strings.xml",
+      "bytes": 152,
+      "sha256": "907c7aecc55426309d59c3ed12c0aa8bcfbadba4261032df9bcd0b6d1074813c"
+    },
+    {
+      "path": "app/src/main/res/values/personalization_strings.xml",
+      "bytes": 201,
+      "sha256": "4fde2b7e7d03ebb9abbd5dc722c8390b3721c013e443e51db4bbce86e484d072"
+    },
+    {
+      "path": "build.gradle",
+      "bytes": 69,
+      "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032"
+    },
+    {
+      "path": "docs/reusable/AI_REPRODUCTION.md",
+      "bytes": 5624,
+      "sha256": "53511ccde3e49ef9075ff3ea53c1fa582afdc1204115cf24a1caca4613cb27ab"
+    },
+    {
+      "path": "docs/reusable/ARCHITECTURE.md",
+      "bytes": 4741,
+      "sha256": "3f1ef99ae41f6ed26091d07a33c435f008eaac544cef8486bc933811545f1606"
+    },
+    {
+      "path": "docs/reusable/ASSETS_AND_LICENSES.md",
+      "bytes": 3645,
+      "sha256": "313e17d0347fec6aa45072d0f384ac9f40277399fb66959870a63cff92a7d97c"
+    },
+    {
+      "path": "docs/reusable/BASELINE.md",
+      "bytes": 3794,
+      "sha256": "92460c294c8804ae7b491b8513e241b3bcab2ffd379f1415ab7a50f0ef02098b"
+    },
+    {
+      "path": "docs/reusable/BUILD_SIGNING.md",
+      "bytes": 5767,
+      "sha256": "f84a11f7d90adb8716f2bf2d17dba5cf3e15cc4545a2845e3a5525a4091a7e55"
+    },
+    {
+      "path": "docs/reusable/COMPATIBILITY.md",
+      "bytes": 3147,
+      "sha256": "d10db2167476514b526a592eeaf6feacb58304110dbbcf35436487d3e476c6a5"
+    },
+    {
+      "path": "docs/reusable/CUSTOMIZATION.md",
+      "bytes": 2284,
+      "sha256": "ccf82bdff5270144dc00ff9bf24c6279a85d3ce10f4b790db4268f15fbad9b58"
+    },
+    {
+      "path": "docs/reusable/DEVICE_PROFILE.md",
+      "bytes": 4000,
+      "sha256": "5e94b86b10cf319e6523690808b951dc86f5935583a1cf53ffdc0ae41c603c49"
+    },
+    {
+      "path": "docs/reusable/FINAL_PUBLICATION_AUDIT.md",
+      "bytes": 15248,
+      "sha256": "fb07f018fdd4cd9a2323e72961f7435d7df384c907238dc09dc2f45ccf9e8dca"
+    },
+    {
+      "path": "docs/reusable/GENERIC_VEHICLE.md",
+      "bytes": 3540,
+      "sha256": "5c8d340899c4db98e6fdff75a7efcbd2413bca040abdc2b28786d499881ab52e"
+    },
+    {
+      "path": "docs/reusable/PUBLIC_LICENSE.md",
+      "bytes": 4327,
+      "sha256": "c67c6c2acf2bd00eaf9e545b913faf0637ca049ece814da8f7cce38381cd1703"
+    },
+    {
+      "path": "docs/reusable/PUBLIC_RELEASE.md",
+      "bytes": 5780,
+      "sha256": "9c469d3a197db64183fe32eba351ddd7a5a358528592892569bdade71cceeea5"
+    },
+    {
+      "path": "docs/reusable/PUBLIC_SIGNING_PLAN.md",
+      "bytes": 8162,
+      "sha256": "7283416896a4f83db6a598a94746ae69a11287258deeca07dddb300cc8ded076"
+    },
+    {
+      "path": "docs/reusable/QUICKSTART.md",
+      "bytes": 4760,
+      "sha256": "1b57a19bf4fd71dab231f29c95ac77cc1abbe7c5fa7955468a3f34723d24bc36"
+    },
+    {
+      "path": "docs/reusable/VALIDATION.md",
+      "bytes": 3556,
+      "sha256": "b2bb87010bf8bc6258321eee04409096a2301dcf7ef2ed6c03719644dfd9038b"
+    },
+    {
+      "path": "docs/reusable/VIDEO_SCRIPT.md",
+      "bytes": 4224,
+      "sha256": "4c7ea7882d2c02a36f670a5bdf209d5cf3543fa663ee9745afbdc42267a4da38"
+    },
+    {
+      "path": "docs/reusable/WIRELESS_ADB.md",
+      "bytes": 6892,
+      "sha256": "4d61d57f2416aeca03776993e57b7bdc2ac7958d845474530ba86fb07f7bc335"
+    },
+    {
+      "path": "docs/reusable/images/generic-decor-preview.png",
+      "bytes": 85279,
+      "sha256": "bbf0426808747bc0747d181cba5e75604a2bca5a0311bcda10b23284798133d6"
+    },
+    {
+      "path": "examples/source_apps.json",
+      "bytes": 489,
+      "sha256": "ed7164ec20bfda13010b36c6c5c77489d58244271e4b18953eab1e5139cc443b"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 48462,
+      "sha256": "497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 281,
+      "sha256": "e74d4f107d2feab989b9a041a02e2d2b85567ff48415c9c7add5ecc19abd19f9"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 76,
+      "sha256": "4d4c82226865844bdc85391d907a383da4a35d3a3f5348985d5ec3997ab932fe"
+    },
+    {
+      "path": "gradlew",
+      "bytes": 8656,
+      "sha256": "a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59"
+    },
+    {
+      "path": "gradlew.bat",
+      "bytes": 2848,
+      "sha256": "d539676c48b596afda64c963ec8f7ee56c7b3fe7e3b81d1dbe2d1a1e3dd9e9f8"
+    },
+    {
+      "path": "licenses/GRADLE_WRAPPER_LICENSE.txt",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "profiles/examples/fyt-uis7862.json",
+      "bytes": 3793,
+      "sha256": "32eea0685bb3283ffe067e3b3770665cb5d8c2aeb66c40d31751412eeae1d018"
+    },
+    {
+      "path": "prompts/00-replicate-source.md",
+      "bytes": 1927,
+      "sha256": "0d579dca608feb8402821d01a62a6e106cb2c28f0bf5b46759e2bda6a8a16a67"
+    },
+    {
+      "path": "prompts/01-audit.md",
+      "bytes": 526,
+      "sha256": "25df2ea5d1c2a102ec258a25300e8e4aac09f973df546dc08d31ed114715f246"
+    },
+    {
+      "path": "prompts/02-connect.md",
+      "bytes": 648,
+      "sha256": "07d838b29e8764e802c2a099edd2997a42040fd4938ec88dada56e9ddacc3d6d"
+    },
+    {
+      "path": "prompts/03-profile.md",
+      "bytes": 555,
+      "sha256": "141da4d34be60f4c730ce2bbb7c304a65da4faf49c70f7c285d94366149df927"
+    },
+    {
+      "path": "prompts/04-adapt.md",
+      "bytes": 532,
+      "sha256": "d2d60d08e69a93680b1a777f43f3caaa4cf3dbc6fc86e46131e8a3ab5d94bfef"
+    },
+    {
+      "path": "prompts/05-personalize.md",
+      "bytes": 620,
+      "sha256": "692250a60639d2701a86a5812237557f34b0ae53b80880f11765704ece9047dc"
+    },
+    {
+      "path": "prompts/06-build.md",
+      "bytes": 507,
+      "sha256": "4b2ff2bdb08c13fd194b7a9067a0c758e945ed33c9af74b63262f88e46e15481"
+    },
+    {
+      "path": "prompts/07-release.md",
+      "bytes": 1069,
+      "sha256": "2a48255a30e882cd7dfc0b60a54cd4e235dd85aef6e1ede761b6481c3b6db524"
+    },
+    {
+      "path": "prompts/README.md",
+      "bytes": 710,
+      "sha256": "3783caf1337aa358f4eb1a8ee6f4170df051d29b1ec399ae2d3b6c2381e4c8db"
+    },
+    {
+      "path": "schemas/device-profile.schema.json",
+      "bytes": 13821,
+      "sha256": "c31227e0ca089d9634b46d5c691f5e9a5611487f7dcea4c4a6002437331e3bf0"
+    },
+    {
+      "path": "settings.gradle",
+      "bytes": 280,
+      "sha256": "f4667b06b175894cd23e6f841e8fa15bed96925bb3b19073861cc9a81dcbea95"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/AppDrawerSearchTest.java",
+      "bytes": 1373,
+      "sha256": "6be549d814eede00a6e6190d25ba82f2c80a9df7c29883ddc4477a45a13579a6"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/DisplayModeTest.java",
+      "bytes": 4877,
+      "sha256": "5cc4d5f52ef8c60698ea4e4078dcf483cfcf5e38124a28832c368c0dc9da9009"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/DisplayPreferencesTest.java",
+      "bytes": 3530,
+      "sha256": "c95da03cdd3ccaa144de04ca83eb5921840e41655572712b9ff87f116cfaf6a6"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/GpsSpeedStateTest.java",
+      "bytes": 1241,
+      "sha256": "41b3f05b9efbe1e2d16af28661407991b437988ba3ac38616dcf718ea8e1f279"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/GpsTelemetryTest.java",
+      "bytes": 1551,
+      "sha256": "2b3899df9bb5d3a61f921ae3fca30be38d1f60569481ae4daa955b2bade3e5d7"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/GpsUpdatePolicyTest.java",
+      "bytes": 2985,
+      "sha256": "318d896c37136b2f0b50c4ec7824e15a01630b1e8bc148c94ec63e71b6ef06ae"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/MediaActionsTest.java",
+      "bytes": 1719,
+      "sha256": "842f337c653f15edeb683cbfd7157392b6c512c091566fee089cb4bb6c3557aa"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/MediaSelectionPolicyTest.java",
+      "bytes": 2820,
+      "sha256": "4298c489182095ea9fc7b3997d195042e6f53c5c886b45406f41e17c94df9ee2"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/SourceCycleTest.java",
+      "bytes": 1959,
+      "sha256": "6ec40494294ab63ab62500490dbd71c9aeea04619587dfab3835ba81623e0696"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/SpanishDateFormatterTest.java",
+      "bytes": 1363,
+      "sha256": "b73d8030ab5202259727c873b576480439d4dd60cf2fd3c317268d32aeab0a37"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/StartupRecoveryPolicyTest.java",
+      "bytes": 4556,
+      "sha256": "38a09ffbcff050ab8484eb0d7e2fdbb4d2c8c5fc96ed3708f3ebb4b842b3c7a9"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/ThemeManagerTest.java",
+      "bytes": 3791,
+      "sha256": "228faadc4e77447cad58749691907fe4a2299871780dfe69766d3f1ae1d07bdc"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/VehicleLightingPolicyTest.java",
+      "bytes": 2917,
+      "sha256": "f76a757d1e1d678573685934a07b192a5d7baa63b9ff4850592c73c4ea463fd2"
+    },
+    {
+      "path": "tests/java/com/fytsmart/dashboard/WeatherPresentationTest.java",
+      "bytes": 894,
+      "sha256": "458cc07ee940b376514c808b94b97763084d3ce0a2891cf42024fc8ed434589c"
+    },
+    {
+      "path": "tests/platform/test_dashboard.py",
+      "bytes": 9140,
+      "sha256": "a627d8f05aa40bb93ac1f29221a4c09eff5e9d65fc5621d6a6a71436832dc9e6"
+    },
+    {
+      "path": "tests/platform/test_public_audit.py",
+      "bytes": 2930,
+      "sha256": "e06f39056ab6af29effb5b0a95535e5533fe550c10944a2ddb738d76acb2e205"
+    },
+    {
+      "path": "tests/render_appearance_local.py",
+      "bytes": 13891,
+      "sha256": "9a80f050841a91192b1e34ca01c9ededeaf9b821c250c790576bfcf20bee0d67"
+    },
+    {
+      "path": "tests/render_display_local.py",
+      "bytes": 8495,
+      "sha256": "92c6f1c5cab0ee8c70c4fa59d420e814183dcedfe2ea34209ea1c5211055c801"
+    },
+    {
+      "path": "tools/build.py",
+      "bytes": 2286,
+      "sha256": "f74f7abb66faf8dcfbe62c0d8013f6be43f5334cf56d1d10c5f6d6af7ee3506d"
+    },
+    {
+      "path": "tools/dashboard.ps1",
+      "bytes": 368,
+      "sha256": "cd7e8e72b1045da3ddde1af77388f7eeb096331a5d6114d35b910336b0c1c05f"
+    },
+    {
+      "path": "tools/dashboard.py",
+      "bytes": 20554,
+      "sha256": "fcfa30cec621497ee1d595bc880d14f1561f3fae9660c0cbe6ee5fd134e58569"
+    },
+    {
+      "path": "tools/dashboard.sh",
+      "bytes": 115,
+      "sha256": "d3b348960ee2abc20fe398e510478dbd64d61288973d4adcb4d8c1dd25e7d946"
+    },
+    {
+      "path": "tools/prepare_public.py",
+      "bytes": 4487,
+      "sha256": "32fbc09d2810fb3575076b0f77e5594be65c99c1f1a382456ee598d3a08e52a3"
+    },
+    {
+      "path": "tools/public_audit.py",
+      "bytes": 5050,
+      "sha256": "bf1478415986c97b77ff1c38772987baa8b7c2c95dd9efad0d82266f06c179c3"
+    },
+    {
+      "path": "tools/run_host_tests.py",
+      "bytes": 1578,
+      "sha256": "b1e367a7ebb9b0298098ff30f9b7a252c9d49a16554b93ac7dbb6b1694c2d610"
+    }
+  ]
+}

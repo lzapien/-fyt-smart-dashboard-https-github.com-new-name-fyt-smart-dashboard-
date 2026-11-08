@@ -1,0 +1,3 @@
+# Conectar mi equipo
+
+Lee AGENTS.md y docs/reusable/WIRELESS_ADB.md. Comprueba herramientas locales y pregúntame el endpoint que muestra mi equipo encendido. No uses una IP histórica ni asumas puerto o ADB habilitado. Distingue Android 10 con TCP autorizado/USB inicial de Android 11+ con pairing disponible. Puedo ejecutar manualmente el emparejamiento y aceptar RSA en el dispositivo. No guardes códigos o identificadores en reportes. No cambies configuración, uses root, reinicies servicios, instales apps o desconectes otros dispositivos. Limita ping/TCP al host y puertos que te autorice. Informa resultado antes de diagnosticar hardware.

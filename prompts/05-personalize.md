@@ -1,0 +1,3 @@
+# Personalización visual acotada
+
+Lee AGENTS.md y el perfil. Mi cambio solicitado se describirá en el siguiente mensaje: colores/tema, vehículo genérico, elementos gráficos, resolución o aplicaciones. Dime primero si ya se puede configurar desde SOURCE → Ajustes. Si necesita código, indica archivos y pruebas antes de pedir autorización. Conserva velocímetro real, animaciones, brújula GPS, reloj, clima, multimedia y exactamente cinco accesos salvo instrucción expresa. No uses datos personales en imágenes, defaults, ejemplos o capturas. No cambies el sistema mediante wm size/density ni instales nada.

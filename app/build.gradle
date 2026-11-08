@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.fytsmart.dashboard'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.fytsmart.dashboard'
+        minSdk 26
+        targetSdk 28
+        versionCode 21
+        versionName '1.1.2'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    lint {
+        warning 'ExpiredTargetSdkVersion'
+    }
+}

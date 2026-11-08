@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "debounce_ms": 500,
+  "wrap_around": true,
+  "apps": [
+    {"name": "Radio Navimods", "package": "com.navimods.radio", "enabled": true},
+    {"name": "Amazon Music", "package": "com.amazon.mp3", "enabled": true},
+    {"name": "Waze", "package": "com.waze", "enabled": true},
+    {"name": "YouTube Music", "package": "com.google.android.apps.youtube.music", "enabled": true},
+    {"name": "Google Maps", "package": "com.google.android.apps.maps", "enabled": true}
+  ]
+}

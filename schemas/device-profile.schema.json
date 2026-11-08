@@ -1,0 +1,633 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fyt-smart-dashboard:device-profile:1",
+  "title": "Perfil técnico mínimo sin identificadores personales",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "kind",
+    "collected_at",
+    "privacy",
+    "hardware",
+    "display",
+    "memory_kib",
+    "declared_sensor_features",
+    "relevant_packages",
+    "current_home",
+    "vendor_services",
+    "capabilities",
+    "adb",
+    "query_summary"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "kind": {
+      "enum": [
+        "device_diagnostic",
+        "historical_reference"
+      ]
+    },
+    "collected_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "serial_ip_mac_location_accounts_included",
+        "raw_logs_or_app_data_included"
+      ],
+      "properties": {
+        "serial_ip_mac_location_accounts_included": {
+          "const": false
+        },
+        "raw_logs_or_app_data_included": {
+          "const": false
+        }
+      }
+    },
+    "hardware": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "manufacturer",
+        "model",
+        "android",
+        "sdk",
+        "board_platform",
+        "hardware",
+        "soc_model",
+        "fyt_platform",
+        "abis"
+      ],
+      "properties": {
+        "manufacturer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "android": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sdk": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "board_platform": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hardware": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "soc_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fyt_platform": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "abis": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "size",
+        "density"
+      ],
+      "properties": {
+        "size": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "density": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "memory_kib": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "MemTotal": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "MemAvailable": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "declared_sensor_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relevant_packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "package",
+          "version_code"
+        ],
+        "properties": {
+          "package": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_]*(\\.[A-Za-z0-9_]+)+$"
+          },
+          "version_code": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "current_home": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "value",
+        "evidence",
+        "limitation"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "verified",
+            "detected",
+            "unknown",
+            "unavailable"
+          ]
+        },
+        "value": {},
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limitation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "vendor_services": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gps",
+        "compass",
+        "media_sessions",
+        "radio",
+        "vehicle_information",
+        "outside_temperature",
+        "wireless_pairing"
+      ],
+      "properties": {
+        "gps": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "compass": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "media_sessions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "radio": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "vehicle_information": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "outside_temperature": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "wireless_pairing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "adb": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observed_transport",
+        "connected",
+        "reported_ports",
+        "reported_ports_limitation"
+      ],
+      "properties": {
+        "observed_transport": {
+          "enum": [
+            "tcp",
+            "emulator",
+            "usb_or_other"
+          ]
+        },
+        "connected": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "value",
+            "evidence",
+            "limitation"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "verified",
+                "detected",
+                "unknown",
+                "unavailable"
+              ]
+            },
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "limitation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "reported_ports": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 65535
+          },
+          "uniqueItems": true
+        },
+        "reported_ports_limitation": {
+          "type": "string"
+        }
+      }
+    },
+    "query_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "successful",
+        "errors"
+      ],
+      "properties": {
+        "successful": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "errors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "query",
+              "reason"
+            ],
+            "properties": {
+              "query": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

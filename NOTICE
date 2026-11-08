@@ -1,0 +1,20 @@
+FYT Smart Dashboard
+Copyright 2026 Luis Zapien
+
+The original contributions to this public distribution, including its code,
+tools, tests, documentation and original graphical resources, are licensed
+under the Apache License, Version 2.0. See LICENSE for the complete terms.
+
+Third-party components retain their original copyright and license notices.
+See THIRD_PARTY_NOTICES.md and licenses/GRADLE_WRAPPER_LICENSE.txt.
+The Gradle Wrapper is a third-party development tool, not an original work
+of the dashboard copyright holder.
+
+Weather data supplied at runtime by Open-Meteo are covered separately by
+CC BY 4.0 and the provider's service terms; they are not relicensed here.
+External Android applications and their artwork, metadata and trademarks
+are not included in this project's license grant.
+
+This notice is informational and does not modify the Apache License.
+No manufacturer endorsement or compatibility with every Android stereo
+is implied.

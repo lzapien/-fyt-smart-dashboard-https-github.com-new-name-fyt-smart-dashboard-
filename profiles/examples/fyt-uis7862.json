@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "kind": "historical_reference",
+  "collected_at": null,
+  "privacy": {
+    "serial_ip_mac_location_accounts_included": false,
+    "raw_logs_or_app_data_included": false
+  },
+  "hardware": {
+    "manufacturer": null,
+    "model": "FYT UIS7862 (nombre de referencia; modelo firmware no incluido)",
+    "android": "10",
+    "sdk": 29,
+    "board_platform": null,
+    "hardware": null,
+    "soc_model": null,
+    "fyt_platform": "6315",
+    "abis": []
+  },
+  "display": {
+    "size": {
+      "status": "detected",
+      "value": {
+        "physical": {
+          "width": 1280,
+          "height": 720
+        },
+        "effective": {
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "evidence": [
+        "historial técnico del proyecto"
+      ],
+      "limitation": null
+    },
+    "density": {
+      "status": "unknown",
+      "value": null,
+      "evidence": [],
+      "limitation": "No se incluye un valor no verificado."
+    }
+  },
+  "memory_kib": {},
+  "declared_sensor_features": [],
+  "relevant_packages": [
+    {
+      "package": "com.navimods.radio",
+      "version_code": null
+    },
+    {
+      "package": "com.amazon.mp3",
+      "version_code": null
+    },
+    {
+      "package": "com.waze",
+      "version_code": null
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "version_code": null
+    },
+    {
+      "package": "com.google.android.apps.maps",
+      "version_code": null
+    }
+  ],
+  "current_home": {
+    "status": "detected",
+    "value": "com.fytsmart.dashboard/.MainActivity",
+    "evidence": [
+      "historial técnico del proyecto"
+    ],
+    "limitation": "Esta selección pertenece solo al caso de referencia; no es una instrucción para cambiar HOME."
+  },
+  "vendor_services": [],
+  "capabilities": {
+    "gps": {
+      "status": "detected",
+      "value": {
+        "implementation": "LocationManager; sin lectura física en esta preparación"
+      },
+      "evidence": [
+        "código fuente"
+      ],
+      "limitation": "La recepción depende del equipo y de una señal válida."
+    },
+    "compass": {
+      "status": "unknown",
+      "value": null,
+      "evidence": [],
+      "limitation": "Requiere diagnóstico y prueba actual en el equipo del usuario."
+    },
+    "media_sessions": {
+      "status": "detected",
+      "value": {
+        "apps": [
+          "Amazon Music",
+          "YouTube Music",
+          "NavRadio+"
+        ]
+      },
+      "evidence": [
+        "historial técnico y código fuente"
+      ],
+      "limitation": "Permisos, metadatos y acciones deben probarse por aplicación y versión."
+    },
+    "radio": {
+      "status": "unknown",
+      "value": null,
+      "evidence": [],
+      "limitation": "Requiere diagnóstico y prueba actual en el equipo del usuario."
+    },
+    "vehicle_information": {
+      "status": "unknown",
+      "value": null,
+      "evidence": [],
+      "limitation": "Requiere diagnóstico y prueba actual en el equipo del usuario."
+    },
+    "outside_temperature": {
+      "status": "unknown",
+      "value": null,
+      "evidence": [],
+      "limitation": "Requiere diagnóstico y prueba actual en el equipo del usuario."
+    },
+    "wireless_pairing": {
+      "status": "unknown",
+      "value": null,
+      "evidence": [],
+      "limitation": "Requiere diagnóstico y prueba actual en el equipo del usuario."
+    }
+  },
+  "adb": {
+    "observed_transport": "tcp",
+    "connected": {
+      "status": "unknown",
+      "value": null,
+      "evidence": [],
+      "limitation": "Referencia histórica, sin conexión durante esta preparación."
+    },
+    "reported_ports": [],
+    "reported_ports_limitation": "Sin endpoint privado en el ejemplo."
+  },
+  "query_summary": {
+    "successful": [],
+    "errors": []
+  }
+}

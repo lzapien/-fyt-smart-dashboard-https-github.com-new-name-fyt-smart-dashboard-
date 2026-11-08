@@ -1,0 +1,42 @@
+# Local build/IDE state, diagnostics and private evidence
+.DS_Store
+.gradle/
+.idea/
+**/build/
+local.properties
+artifacts/
+profiles/private/
+**/device-profile.json
+**/device-report.md
+distribution/
+docs/history/
+__pycache__/
+*.pyc
+*.apk
+*.aab
+*.zip
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+*.pem
+*.p12
+*.key
+
+# Original one-off reports/helpers stay private; public export uses an allowlist.
+RC1_*.md
+SOURCE_*.md
+V1_*.md
+V2_*.md
+COCKPIT_GAUGE.md
+DOCK_CUSTOM.md
+compilar_mac.sh
+instalar_cuando_enciendas.sh
+
+# External signing secrets: never commit these even accidentally
+*.pfx
+*.pk8
+*.p8
+.env
+.env.*
+*signing*.properties
