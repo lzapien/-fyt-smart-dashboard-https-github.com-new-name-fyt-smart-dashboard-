@@ -2,17 +2,17 @@
 
 Dashboard Android en Java basado en la implementación funcional **1.1.2 / versionCode 21**, para personalizar con Codex. Conserva la interfaz: velocímetro GPS animado, SUV trasero, carretera, reloj grande, clima, multimedia y dock de cinco aplicaciones.
 
-**Preparación pública en revisión.** Apache-2.0 está aplicada al contenido propio con Copyright 2026 Luis Zapien. Aún no hay URL GitHub publicada ni garantía para todos los fabricantes. La distribución se prepara separada de los informes y datos privados del original.
+**Distribución pública de código fuente.** Apache-2.0 está aplicada al contenido propio con Copyright 2026 Luis Zapien. El [repositorio del proyecto](https://github.com/lzapien/-fyt-smart-dashboard-https-github.com-new-name-fyt-smart-dashboard-) contiene fuentes y documentación; no garantiza compatibilidad con todos los fabricantes. La distribución se prepara separada de los informes y datos privados del original.
 
 ## Entrega de código fuente para otras IA
 
 Esta distribución se comparte como **fuentes y documentación**, sin APK, claves ni historial privado. Empieza por [Reproducir con otra IA](docs/reusable/AI_REPRODUCTION.md) y usa el [prompt inicial](prompts/00-replicate-source.md). El asistente debe leer AGENTS.md y auditar localmente antes de proponer cambios. No hace falta conectar un estéreo ni generar una APK para comenzar.
 
-La firma Release y las pruebas físicas son pasos futuros si el receptor decide compilar o instalar. No bloquean la entrega de fuentes. El pendiente de atribución meteorológica se conserva documentado para que se resuelva antes de distribuir un binario con clima. No se ha publicado un repositorio remoto.
+La firma Release y las pruebas físicas son pasos futuros si el receptor decide compilar o instalar. No bloquean la entrega de fuentes. El pendiente de atribución meteorológica se conserva documentado para que se resuelva antes de distribuir un binario con clima. El código está publicado en el [repositorio del proyecto](https://github.com/lzapien/-fyt-smart-dashboard-https-github.com-new-name-fyt-smart-dashboard-).
 
 ## Comenzar
 
-1. Obtén la copia pública revisada, no la carpeta privada. Cuando exista una URL aprobada, podrás clonarla con Git o descargar su ZIP.
+1. Obtén la copia pública desde el [repositorio del proyecto](https://github.com/lzapien/-fyt-smart-dashboard-https-github.com-new-name-fyt-smart-dashboard-): puedes clonarla con Git o descargarla con Code → Download ZIP. No utilices la carpeta privada del desarrollo original.
 2. Sigue [Inicio rápido](docs/reusable/QUICKSTART.md): JDK 17, Android SDK Platform 35, Python 3 y Platform Tools.
 3. Cuando autorices adaptar al hardware, conecta tu propio equipo si el firmware permite [ADB inalámbrico](docs/reusable/WIRELESS_ADB.md). No se presupone ADB habilitado ni puerto fijo.
 4. Genera device-profile.json y device-report.md según [Diagnóstico y privacidad](docs/reusable/DEVICE_PROFILE.md).

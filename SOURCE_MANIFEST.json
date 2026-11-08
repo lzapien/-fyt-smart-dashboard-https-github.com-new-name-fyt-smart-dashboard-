@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7339,
-      "sha256": "c0903c8e0fb5db860ebd762fc124382a2037b080628ee917bd875594a3f662e1"
+      "bytes": 7746,
+      "sha256": "88fe724f277e4c790ee65a7b6f1ac07143d8fd05c5b01ead802629601e8376fa"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -465,8 +465,8 @@
     },
     {
       "path": "docs/reusable/QUICKSTART.md",
-      "bytes": 4760,
-      "sha256": "1b57a19bf4fd71dab231f29c95ac77cc1abbe7c5fa7955468a3f34723d24bc36"
+      "bytes": 4844,
+      "sha256": "a8b4fbb7ecd2345dcb0e438e9f98f87cf46d2d055591d7ecc5a02cef69e949e9"
     },
     {
       "path": "docs/reusable/VALIDATION.md",
@@ -708,5 +708,10 @@
       "bytes": 1578,
       "sha256": "b1e367a7ebb9b0298098ff30f9b7a252c9d49a16554b93ac7dbb6b1694c2d610"
     }
+  ],
+  "repository_url": "https://github.com/lzapien/-fyt-smart-dashboard-https-github.com-new-name-fyt-smart-dashboard-",
+  "changes_after_source_package": [
+    "README.md: public repository link",
+    "docs/reusable/QUICKSTART.md: public repository link"
   ]
 }

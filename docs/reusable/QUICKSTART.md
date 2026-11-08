@@ -19,7 +19,7 @@ Extrae el proyecto completo y abre README.md. Otra IA puede usar docs/reusable/A
 
 ## Proyecto y Codex
 
-Cuando exista una URL GitHub aprobada, clona ese repositorio o descarga su ZIP. Hoy no se inventa una URL. Para la copia preparada localmente, utiliza la carpeta indicada en el informe. No distribuyas la carpeta privada.
+Clona el [repositorio público del proyecto](https://github.com/lzapien/-fyt-smart-dashboard-https-github.com-new-name-fyt-smart-dashboard-) o descarga sus fuentes con Code → Download ZIP. Para la copia preparada localmente, utiliza la carpeta indicada en el informe. No distribuyas la carpeta privada.
 
 Abre la raíz pública con Codex local y verifica que lea AGENTS.md. Instala o configura la aplicación, extensión o CLI siguiendo la [guía oficial de Codex](https://learn.chatgpt.com/docs/codex/cli) y el [inicio de la aplicación](https://learn.chatgpt.com/docs/quickstart). El acceso al estéreo ocurre desde tu ordenador; Codex Cloud no tiene acceso implícito a tu Wi-Fi. La app Android no requiere una API key de OpenAI.
 
